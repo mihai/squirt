@@ -13,6 +13,23 @@ A speed reading bookmarklet.
 - gorgeous
 - no external API dependencies
 
+## Contributing
+
+If you want to contribute to this project, follow the below steps to set up
+Squirt for local development:
+
+* fork this repository
+* clone your fork locally
+```
+git clone https://github.com/<your_username>/squirt
+```
+* start a http server in the repo's folder, for example:
+```
+python -m SimpleHTTPServer 4000
+```
+* navigate to the website you want to test Squirt on and append `?sq-dev` to the
+  URL, which will instruct the bookmarklet to use your local files
+* open the bookmarklet from the bookmarks bar
 
 ## Sister Projects
 
